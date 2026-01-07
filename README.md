@@ -91,17 +91,40 @@ These techniques help uncover subtle manipulation artifacts often missed by huma
 
 ---
 
-## 📈 Impact & Learning Outcomes
-
-- ⏱ Reduced manual document verification time
-- 🔐 Improved fraud detection accuracy
-- 🧠 Hands-on experience in digital forensic analysis
-- 🛡 Strengthened skills in cybersecurity & forensic reasoning
-- 👩‍💻 Applied theoretical forensic concepts to real-world scenarios
+## 🚀 How to Run
 
 ---
 
+### Command-Line Interface (CLI)
+
+Use the following commands to run the application via **Command Prompt / Windows PowerShell**:
+
+```bash
+pip install Pillow numpy opencv-python
+pip install pdf2image
+pip install Flask Pillow pypdf
+pip install Flask Pillow pypdf weasyprint
+```
+
+Navigate to the project directory:
+```bash
+cd C:\FakeDocChecker
+```
+
+Graphical User Interface (GUI)
+Run the Flask application:
+```bash
+flask run
+```
+
+Open your browser and access:
+```bash
+http://127.0.0.1:5000
+```
+
+
 ---
+
 
 ## 👩‍💻 Author
 🔐 Focused on Secure Systems, Databases & Cybersecurity  
